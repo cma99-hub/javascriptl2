@@ -29,7 +29,7 @@ function filter(){
         // console.log(getli[x].querySelector("a").innerText.toLowerCase());
         // console.log(getli[x].getElementsByTagName("a")[0].textContent.toLocaleLowerCase());
    
-        var getavalue = getli[x].querySelector("a").innerText.toLocaleLowerCase();
+        var getavalue = getli[x].querySelector("a").innerText.toLowerCase();
 
         if(getavalue.indexOf(inputfilter) > -1){
             getli[x].style.display = "";
